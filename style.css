@@ -1,0 +1,208 @@
+/* icons */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+*
+{
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+}
+#loader
+{
+	border: 12px solid #f3f3f3;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border-top: 12px solid #82ccdd;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin
+{
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+.center
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.container
+{
+	margin: auto;
+	max-width: 1170px;
+
+}
+header
+{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 10px 15px;
+	z-index: 100%;
+
+}
+header.sticky
+{
+	position: fixed;
+	background-color: #222222;
+	animation: header 0.5s ease;
+
+}
+@keyframe header
+{
+	0%
+	{
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateY(0%);
+	}
+}
+header .logo
+{
+	float: left;
+}
+header .logo a
+{
+	font-size: 30px; 
+	display: inline-block;
+	padding: 5px 0px;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+header .logo a span{
+	color: purple;
+}
+header .navbar
+{
+	float: right;
+}
+header .navbar ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header .navbar ul li{
+	display: inline;
+	padding: 0 15px;
+}
+/* hovering of navbar elements */
+header .navbar ul li a
+{
+	display:  inline-block;
+	padding: 10px 0px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: purple;
+	position: relative;
+}
+header .navbar ul li a::before
+{
+	position: absolute;
+	top: 100%;
+	margin-top: -5px;
+	height: 2px;
+	left: 0;
+	background-color: #82ccdd;
+	width: 0;
+	transition: width 0.5s ease;
+	content: '';
+}
+header .navbar ul li a.active::before
+{
+	width: 100;
+}
+header .navbar ul li a:hover::before
+{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

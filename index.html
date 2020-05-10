@@ -7,41 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Neelam's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+	<button id="scroll"><a href="#">UP</a></button>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a href="#" class="navbar-brand ml-3"><span style="color: darkviolet">Neel</span>@m</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle-Navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle-Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse"></div>
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#Home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#About" class="nav-link">About</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#Projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#Contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <button class="btn menu-right-btn border" type="submit">Template</button>
-                </form>
+                
             </div>
         </nav>
     </header>
     <main>
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" id="Home">
             <div class="site-content">
                 <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column">
@@ -51,29 +51,29 @@
                 </div>
             </div>
         </div>
-        <div class="section-1">
+
+        <div class="section-1" id="About">
             <div class="container text-center">
-                <h1 class="heading-1">Fantastic Features</h1>
-                <h1 class="heading-2">& Different Type of Templae</h1>
-                <p class="para-1">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            	<!---<img src="images/pro.jpg">-->
+                <h1 class="heading-1">Introduction</h1>
+                <!----<h1 class="heading-2">& Different Type of Templae</h1>---->
+                <p class="para-1" id="intro">
+                    Hey, I am Neelam Chadokar from Bhopal famous as the city of lakes.
+                    <br>
+Currently I am pursuing a Bachelor's of engineering with Computer science branch, have a major interest in Web development.
+I have designed and created many websites shown below.<br>
+Along with web technology, I have worked with object-oriented languages like C, C++, Python, and also familiar with Java.
                 </p>
-                <div class="row justify-content-center text-center">
+
+                <div class="row justify-content-center text-center" id="Projects">
                     <div class="col-md-4">
                         <div class="card" style="width: 20rem;">
                             <img src="images/p2.jpg" class="card-img-top">
                             <div class="card-body">
-                                <h4 card-title>Responsive</h4>
+                                <h4 card-title>Web Designs</h4>
                                 <p class="card-text">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
+                                    Websites are created using HTML5, CSS3, Bootstrap and javascript.
+All designs are available along with there codes on github and also hosted online with github. </p>
                             </div>
                         </div>
                     </div>
@@ -81,11 +81,10 @@
                         <div class="card" style="width: 20rem;">
                             <img src="images/p4.jpg" class="card-img-top">
                             <div class="card-body">
-                                <h4 card-title>Responsive</h4>
+                                <h4 card-title>Python Projects</h4>
                                 <p class="card-text">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                   I have used python to make basic games as a part of learning.
+Apps like snake game, pong game with higher speed, a chatbot to work with specific websites, etc are made.
                                 </p>
                             </div>
                         </div>
@@ -94,7 +93,7 @@
                         <div class="card" style="width: 20rem;">
                             <img src="images/p3.jpg" class="card-img-top">
                             <div class="card-body">
-                                <h4 card-title>Responsive</h4>
+                                <h4 card-title>Javascript programs</h4>
                                 <p class="card-text">
                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -122,138 +121,127 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="d-flex flex-row">
-                            <i class="fas fa-question fa-3x m-2"></i>
                             <div class="d-flex flex-column">
-                                <h3 class="m-2">HTML</h3>
+                                <h3 class="m-2">HTML5</h3>
                                 <p class="m-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
+                                    <div class="w3-light-grey" id="progress">
+                                        <div class="w3-container w3-blue w3-center" style="width:85%">85%</div>
+                                    </div>
                                 </p>
                             </div>
                         </div>
                     </div>
-               
-            
-            <div class="col-md-4">
-                <div class="d-flex flex-row">
-                    <i class="fas fa-question fa-3x m-2"></i>
-                    <div class="d-flex flex-column">
-                        <h3 class="m-2">HTML</h3>
-                        <p class="m-2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="d-flex flex-row">
-                    <i class="fas fa-question fa-3x m-2"></i>
-                    <div class="d-flex flex-column">
-                        <h3 class="m-2">HTML</h3>
-                        <p class="m-2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div><!-------
-    <div class="row">
                     <div class="col-md-4">
                         <div class="d-flex flex-row">
-                            <i class="fas fa-question fa-3x m-2"></i>
                             <div class="d-flex flex-column">
-                                <h3 class="m-2">HTML</h3>
+                                <h3 class="m-2">CSS3/Bootstrap</h3>
                                 <p class="m-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
+                                    <div class="w3-light-grey" id="progress">
+                                        <div class="w3-container w3-blue w3-center" style="width:75%">75%</div>
+                                    </div>
                                 </p>
                             </div>
                         </div>
                     </div>
-               
-            
-            <div class="col-md-4">
-                <div class="d-flex flex-row">
-                    <i class="fas fa-question fa-3x m-2"></i>
-                    <div class="d-flex flex-column">
-                        <h3 class="m-2">HTML</h3>
-                        <p class="m-2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
+                    <div class="col-md-4">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <h3 class="m-2">Python</h3>
+                                <p class="m-2">
+                                    <div class="w3-light-grey" id="progress">
+                                        <div class="w3-container w3-blue w3-center" style="width:70%">70%</div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <h3 class="m-2">Object Oriented Programming</h3>
+                                <p class="m-2">
+                                    <div class="w3-light-grey" id="progress">
+                                        <div class="w3-container w3-blue w3-center" style="width:80%">80%</div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <h3 class="m-2">SQL</h3>
+                                <p class="m-2">
+                                    <div class="w3-light-grey" id="progress">
+                                        <div class="w3-container w3-blue w3-center" style="width:85%">85%</div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <h3 class="m-2">Django</h3>
+                                <p class="m-2">
+                                    <div class="w3-light-grey" id="progress">
+                                        <div class="w3-container w3-blue w3-center" style="width:65%;">65%</div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="d-flex flex-row">
-                    <i class="fas fa-question fa-3x m-2"></i>
-                    <div class="d-flex flex-column">
-                        <h3 class="m-2">HTML</h3>
-                        <p class="m-2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>----------></div> </div>
-        <div class="section-4 bg-dark">
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-md-7">
-        				<img src="images/p1.jpg" width="500">
-        			</div>
-        			<div class="col-md-5">
-        				<h1 class="text-white">We can do it</h1>
-        				<p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        				tempor incididunt ut labore et dolore magna aliqua. t, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        			</div>
-        		</div>
-        	</div>
-        	
         </div>
-
-
+        <div class="section-4 bg-dark" id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="images/p1.jpg" width="500">
+                    </div>
+                    <div class="col-md-5">
+                        <h1 class="text-white">We can do it</h1>
+                        <p class="para-1" id="text">Hard Work Beats Talent When Talent Doesn't Work Hard</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-    	<div class="section-5 text-center">
-    		<h4 style="margin-top: 5%;">Thanks for visiting</h4>
-    		<h4 class="my-4"></h4>
-    		<div class="form-inline justify-content-center">
-    			<input type="email" name="Email" id="email" placeholder="Email id" size="50" class="form-control px-4 py-2">
-    			<input type="button" value="Contact us" class="btn btn-primary px-4 py-2">
-    		</div>
-
-<div class="social" style="margin: 5%;"> 
-	<div class="d-flex flex-row justify-content-center">
-		<i class="fas fa-palette"></i>
-		<i class="fas fa-palette"></i>
-		<i class="fas fa-palette"></i>
-	</div>
-
-<hr>
-<h5>Created by neel@m</h5>
-</div>
-
-    	</div>
+        <div class="section-5 text-center">
+            <h4 style="margin-top: 5%;">Thanks for visiting</h4>
+            <h4 class="my-4"></h4>
+            <div class="form-inline justify-content-center">
+                <input type="email" name="Email" id="email" placeholder="Email id" size="50" class="form-control px-4 py-2">
+                <input type="button" value="Contact us" class="btn btn-primary px-4 py-2">
+            </div>
+            <div class="social" style="margin: 5%;">
+                <div class="d-flex flex-row justify-content-center">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </div>
+                <hr>
+                <h5>Created by neel@m</h5>
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+    	window.sr =ScrollReveal({duration : 1000});
+    	sr.reveal('.site-content .d-flex');
+    	sr.reveal('.section-1 .card');
+    	sr.reveal('section-2 .d-flex');
+    	sr.reveal('section-3 .col-md-4');
+    	sr.reveal('section-4 .col-md-7 .col-md-5');
+    </script>
+
 </body>
 
 </html>

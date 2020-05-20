@@ -7,18 +7,6 @@ body{
 	scroll-behavior: smooth;
 
 }
-#scroll{
-	
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  font-size: 15px;
-  background-color: darkviolet;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
 .navbar-brand{
 	font-family: 'Pacifico';
 	font-size: 35px;
@@ -144,10 +132,8 @@ h3, h1, h4, .card-title{
 	color: rgba(0,0,0,0.59);
 }
 .section-4{
-	margin-top: 10%;
-	margin-bottom: 10%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .section-4 .para-1{
 	color: white;
@@ -194,6 +180,9 @@ h3, h1, h4, .card-title{
 	}
 	footer input[type="button"]{
 		margin-top: 5%;
+	}
+	#cap{
+		width: 320px;
 	}
 }
 
